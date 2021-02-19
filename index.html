@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transparent Card UI Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="user1.png">
+                    </div>
+
+                    <div class="contentBx">
+                        <h3>Stephanie D'Elboux 
+                            <br>
+                            <span>
+                                Creative Designer 
+                            </span>
+                        </h3>
+                    </div> 
+
+                </div>
+
+                <ul class="social">
+                    <li style="--i:1">
+                        <a href="https://www.facebook.com/stephanie.vendraminidelboux" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+    
+                    <li style="--i:2">
+                        <a href="https://www.instagram.com/stedelboux" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+    
+                    <li style="--i:3">
+                        <a href="https://twitter.com/stedelboux" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li style="--i:4">
+                        <a href="https://www.linkedin.com/in/stedelboux" target="_blank">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li style="--i:5">
+                        <a href="https://github.com/stedelboux" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                </ul>
+               
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelector(".card"),{
+            max: 25,
+            speed: 400
+        });
+    </script>
+    
+</body>
+
+
+
+</html>
